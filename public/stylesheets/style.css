@@ -1,0 +1,47 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+  border-bottom: 3px solid black;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.table-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.label {
+  text-align: center;
+}
+
+.typeSearch {
+  width: 177px;
+}
+
+.link-container {
+  margin-top: 30px;
+}
+
+#generateLink {
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+  background-color: rgb(59, 212, 59);
+  border-radius: 5px;
+  padding: 10px;
+}

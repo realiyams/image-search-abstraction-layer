@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <title>Image Search Abstraction Layer</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <script src="/javascripts/script.js" defer></script>
+</head>
+
+<body>
+  <h1>Image Search Abstraction Layer</h1>
+  <div class="container">
+    <p>Search the web for images or see recent searches</p>
+
+    <div class="table-container">
+      <table>
+        <tr>
+          <td class="label">Type of Search</td>
+          <td>: 
+            <select class="typeSearch" id="searchType">
+              <option value="imageSearch">Search For Images</option>
+              <option value="recentSearches">See Recent Searches</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td class="label">Query</td>
+          <td>: <input type="text" id="queryInput" /></td>
+        </tr>
+        <tr>
+          <td class="label">Page</td>
+          <td>: <input type="number" id="pageInput" /></td>
+        </tr>
+      </table>
+
+    </div>
+
+    <div class="link-container">
+      <a href="" id="generateLink">Go to URL</a>
+    </div>
+  </div>
+</body>
+
+</html>

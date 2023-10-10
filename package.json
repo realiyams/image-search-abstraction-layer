@@ -1,0 +1,20 @@
+{
+  "name": "image",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node create_table.js && node ./bin/www",
+    "dev": "node create_table.js && nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "date-fns": "^2.30.0",
+    "debug": "~2.6.9",
+    "dotenv": "^16.3.1",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "node-fetch": "^2.7.0",
+    "sqlite3": "^5.1.6",
+    "unsplash-js": "^7.0.18"
+  }
+}
